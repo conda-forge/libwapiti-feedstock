@@ -11,7 +11,7 @@ source:
 
 build:
   skip: true  # [win]
-  number: 4
+  number: 5
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv "
 
 requirements:
@@ -31,8 +31,7 @@ test:
 
 about:
   home: https://github.com/adsva/libwapiti
-  license: BSD
-  license_family: BSD
+  license: BSD-2-Clause
   license_file: license.txt
   summary: Python bindings for libwapiti
   doc_url: https://github.com/adsva/libwapiti
